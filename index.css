@@ -46,7 +46,7 @@ form button{
   cursor: pointer;
 }
 ::placeholder{
-  font-size: 18px;
+  font-size: 3rem;
   color: white;
 }
 #show-more{
@@ -71,6 +71,20 @@ form button{
   height: 230px;
   object-fit: cover;
   border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  /* Adjust styles for tablets and larger screens */
+  #search-result {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Adjust styles for larger desktop screens */
+  #search-result {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 
