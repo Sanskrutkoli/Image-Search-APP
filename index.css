@@ -74,14 +74,12 @@ form button{
 }
 
 @media (min-width: 768px) {
-  /* Adjust styles for tablets and larger screens */
   #search-result {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (min-width: 1024px) {
-  /* Adjust styles for larger desktop screens */
   #search-result {
     grid-template-columns: 1fr 1fr 1fr;
   }
